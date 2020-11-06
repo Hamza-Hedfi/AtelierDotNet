@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{13D138F6-62AA-4955-8BCD-A3EEC34E865C}</ProjectGuid>
+    <ProjectGuid>{31D4125D-D982-4531-A3BF-DC56E8991C1F}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>TP03</RootNamespace>
-    <AssemblyName>TP03</AssemblyName>
+    <RootNamespace>TP02</RootNamespace>
+    <AssemblyName>TP02</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -65,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

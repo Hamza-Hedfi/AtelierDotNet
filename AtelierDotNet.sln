@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30621.155
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TP01", "TP03\TP01.csproj", "{13D138F6-62AA-4955-8BCD-A3EEC34E865C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TP01", "TP01\TP01.csproj", "{13D138F6-62AA-4955-8BCD-A3EEC34E865C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TP02", "TP04\TP02.csproj", "{31D4125D-D982-4531-A3BF-DC56E8991C1F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TP02", "TP02\TP02.csproj", "{31D4125D-D982-4531-A3BF-DC56E8991C1F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{776C2E81-B6F8-45F3-BF5F-95C87AFA5A5E}"
 	ProjectSection(SolutionItems) = preProject
