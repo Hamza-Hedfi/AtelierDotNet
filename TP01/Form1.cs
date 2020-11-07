@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace TP03
@@ -47,6 +40,7 @@ namespace TP03
             {
                 destination.Items.Add(item);
             }
+
         }
 
         private void BoutonEffacerListe1_Click(object sender, EventArgs e)
@@ -56,11 +50,12 @@ namespace TP03
 
         private void BoutonEffacerListe2_Click(object sender, EventArgs e)
         {
-            var items = listBox2.Items;
-            foreach (var item in items)
-            {
-                listBox1.Items.Add(item);
-            }
+            //var items = listBox2.Items;
+            //foreach (var item in items)
+            //{
+            //    listBox1.Items.Add(item);
+            //}
+            listBox1.Items.AddRange(listBox2.Items);
             listBox2.Items.Clear();
         }
     }
